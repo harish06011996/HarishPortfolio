@@ -281,8 +281,8 @@ const getStyles = (darkMode) => ({
     color: "#38bdf8"
   },
 
-  section: { padding: "40px 20px", maxWidth: 1000, margin: "auto" },
-  sectionAlt: { padding: "40px 20px", backgroundColor: darkMode ? "#111827" : "#ffffff" },
+  section: { padding: "42px 20px", maxWidth: 1000, margin: "auto" },
+  sectionAlt: { padding: "42px 20px", backgroundColor: darkMode ? "#111827" : "#ffffff" },
 
   h2: { textAlign: "center", marginBottom: 40 },
   intro: { lineHeight: 1.8, fontSize: 16, textAlign: "center" },
