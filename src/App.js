@@ -62,7 +62,7 @@ export default function Portfolio() {
         <p style={styles.tagline}>QA Lead | Senior SDET | Automation Architect</p>
         <div style={styles.badge}>🟢 Open to Opportunities</div>
         <div style={{ marginTop: 25 }}>
-          <a href="/Harish_Kumar_Resume.pdf" download style={styles.primaryBtnLarge}>⬇ Download Resume</a>
+          <a href="/Harish_Kumar_Resume_22feb1.pdf" download style={styles.primaryBtnLarge}>⬇ Download Resume</a>
           <a href="https://www.linkedin.com/in/harish-kumar-06b776226" target="_blank" rel="noreferrer" style={styles.secondaryBtn}>LinkedIn</a>
           <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer" style={styles.secondaryBtn}>GitHub</a>
         </div>
