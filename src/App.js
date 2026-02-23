@@ -100,10 +100,8 @@ export default function Portfolio() {
       <section id="about" style={styles.section}>
         <h2 style={styles.h2}>Professional Summary</h2>
         <p style={styles.intro}>
-          Senior SDET and QA Lead with 8+ years of experience in Automation Framework Development,
-          API Automation, CI/CD integration, and enterprise-level test strategy implementation.
-          Specialized in building scalable hybrid frameworks using Java, Selenium, Playwright,
-          REST Assured, TestNG, and Cucumber.
+          Senior SDET and QA Lead with 8+ years of experience in Automation Framework Development, API Automation, CI/CD integration, and enterprise-level test strategy implementation. Specialized in building scalable hybrid frameworks using Java, Selenium, Playwright, REST Assured, TestNG, and Cucumber. Strong expertise in Agile delivery, database validation, and continuous quality engineering.
+        </p>
         </p>
       </section>
 
