@@ -56,7 +56,7 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      {/* Hero with Profile Photo */}
+      {/* Hero with Profile Photo (Only Change) */}
       <header style={styles.hero}>
         <div style={styles.profileWrapper}>
           <img
@@ -100,11 +100,8 @@ export default function Portfolio() {
       <section id="about" style={styles.section}>
         <h2 style={styles.h2}>Professional Summary</h2>
         <p style={styles.intro}>
-          Senior SDET and QA Lead with 8+ years of experience in Automation Framework Development,
-          API Automation, CI/CD integration, and enterprise-level test strategy implementation.
-          Specialized in building scalable hybrid frameworks using Java, Selenium, Playwright,
-          REST Assured, TestNG, and Cucumber. Strong expertise in Agile delivery, database validation,
-          and continuous quality engineering.
+          Senior SDET and QA Lead with 8+ years of experience in Automation Framework Development, API Automation, CI/CD integration, and enterprise-level test strategy implementation. Specialized in building scalable hybrid frameworks using Java, Selenium, Playwright, REST Assured, TestNG, and Cucumber. Strong expertise in Agile delivery, database validation, and continuous quality engineering.
+        </p>
         </p>
       </section>
 
@@ -142,6 +139,16 @@ export default function Portfolio() {
             <li>Led QA team and established automation best practices.</li>
           </ul>
         </div>
+
+        <div style={styles.expCard}>
+          <h3>Software Quality Engineer | Fonantrix Solutions</h3>
+          <p style={styles.date}>Feb 2018 – Nov 2022</p>
+          <ul style={styles.list}>
+            <li>Developed BDD automation frameworks using Cucumber & TestNG.</li>
+            <li>Automated REST APIs using REST Assured.</li>
+            <li>Implemented database validation using SQL queries.</li>
+          </ul>
+        </div>
       </section>
 
       {/* Key Contributions */}
@@ -149,9 +156,14 @@ export default function Portfolio() {
         <h2 style={styles.h2}>Key Contributions – TC Gen Tool</h2>
         <div style={styles.expCard}>
           <p style={styles.intro}>
-            Designed and developed "TC Gen" – an intelligent Test Case Generation tool that
-            empowers non-technical stakeholders to automatically generate structured manual test cases.
+            Designed and developed "TC Gen" – an intelligent Test Case Generation tool that empowers
+            non-technical stakeholders to automatically generate structured manual test cases.
           </p>
+          <ul style={styles.list}>
+            <li>Automated conversion of automation scripts into manual test cases.</li>
+            <li>Reduced manual documentation effort by 70%.</li>
+            <li>Improved traceability between automation and functional test cases.</li>
+          </ul>
         </div>
       </section>
 
@@ -209,8 +221,6 @@ const getStyles = (darkMode) => ({
     top: 0,
     display: "flex",
     justifyContent: "space-between",
-    flexWrap: "wrap", /* Mobile responsiveness */
-    gap: "10px",
     padding: "15px 30px",
     background: darkMode ? "#111827" : "#ffffff",
     zIndex: 1000
@@ -271,8 +281,8 @@ const getStyles = (darkMode) => ({
     color: "#38bdf8"
   },
 
-  section: { padding: "25px 20px", maxWidth: 1000, margin: "auto" },
-  sectionAlt: { padding: "25px 20px", backgroundColor: darkMode ? "#111827" : "#ffffff" },
+  section: { padding: "20px 20px", maxWidth: 1000, margin: "auto" },
+  sectionAlt: { padding: "20px 20px", backgroundColor: darkMode ? "#111827" : "#ffffff" },
 
   h2: { textAlign: "center", marginBottom: 40 },
   intro: { lineHeight: 1.8, fontSize: 16, textAlign: "center" },
