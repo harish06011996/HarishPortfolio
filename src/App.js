@@ -60,7 +60,7 @@ export default function Portfolio() {
       <header style={styles.hero}>
         <div style={styles.profileWrapper}>
           <img
-            src="/profile.jpg"
+            src="/Harish Updated.png"
             alt="Profile"
             style={{
               ...styles.profileImage,
